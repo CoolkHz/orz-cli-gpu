@@ -11,6 +11,8 @@ A command line interface for the Orz program.
 
 ## 配置环境
 
+前提是你的是**GPU**服务器并有N卡显卡驱动和CUDA开发环境!!!
+
 ### 切换用户
 
 ```
