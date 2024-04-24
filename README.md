@@ -202,7 +202,7 @@ export CUDA_VISIBLE_DEVICES=2
 export CUDA_VISIBLE_DEVICES=3
 /root/ore-cli-master/ore_miner start -p 1001 -c 5000000 -o 0.1 -d /root/workspace/ore/4 -t 1 -u /root/workspace/ore/4/rpc.txt
 
-
+```
 ### 查询产量
 
 给脚本执行权限 `chmod +x get.sh`
