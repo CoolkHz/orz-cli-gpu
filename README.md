@@ -215,4 +215,4 @@ export CUDA_VISIBLE_DEVICES=3
 
 修改`claim.sh`中的**targetAddress**和**httpsRPC**
 
-然后执行此命令查询产量`/root/orz-cli-gpu/claim.sh`
+然后执行此命令归集orz`/root/orz-cli-gpu/claim.sh`
