@@ -126,7 +126,7 @@ mkdir /root/workspace && mkdir /root/workspace/ore
 
 ```
 // rpc文件为 https链接+空格+ws链接，每行一个 rpc 配置。
-https://rpc.com/rpc ws://rpc.com/rpc
+https://rpc.com/rpc wss://rpc.com/rpc
 ```
 
 RPC 尽量**多搞**。
