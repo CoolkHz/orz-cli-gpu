@@ -3,6 +3,8 @@ A command line interface for the Orz program.
 
 # ORZ捡钱项目配置流程
 
+**使用之前麻烦右上角点个 Star🌟，感谢您的支持！**
+
 *建议v我10000000000顿kfc*
 
 联系方式：[@coolkhz](https://t.me/coolkhz)
@@ -201,7 +203,7 @@ export CUDA_VISIBLE_DEVICES=3
 /root/ore-cli-master/ore_miner start -p 1001 -c 5000000 -o 0.1 -d /root/workspace/ore/4 -t 1 -u /root/workspace/ore/4/rpc.txt
 
 
-### 查询产量
+### 查询产量（可能无效，待修复）
 
 给脚本执行权限 `chmod +x get.sh`
 
