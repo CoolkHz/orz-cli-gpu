@@ -203,8 +203,16 @@ export CUDA_VISIBLE_DEVICES=3
 /root/ore-cli-master/ore_miner start -p 1001 -c 5000000 -o 0.1 -d /root/workspace/ore/4 -t 1 -u /root/workspace/ore/4/rpc.txt
 
 
-### 查询产量（可能无效，待修复）
+### 查询产量
 
 给脚本执行权限 `chmod +x get.sh`
 
 然后执行此命令查询产量`/root/orz-cli-gpu/get.sh`
+
+### 归集到主号
+
+给脚本执行权限 `chmod +x claim.sh`
+
+修改`claim.sh`中的**targetAddress**和**httpsRPC**
+
+然后执行此命令查询产量`/root/orz-cli-gpu/claim.sh`
