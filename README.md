@@ -158,6 +158,12 @@ npm install pm2@latest -g
 
 ## 配置sh等脚本监控
 
+启动命令 `/root/orz-cli-gpu/ore_miner start -p 1000`
+
+help 参数 `/root/orz-cli-gpu/ore_miner --help`
+
+建议使用 pm2 监控启动
+
 ### 配置ore-sh脚本
 
 创建`start.sh`启动脚本脚本文件
@@ -170,8 +176,11 @@ vim start.sh
 
 ```
 
-配置好后，执行`pm2 start start.sh --name ore`
+配置好后，执行`pm2 start start.sh --name orz`
 
+执行`pm2 logs orz` 查看日志是否启动即可
+
+更多 pm2 的命令自己查找pm2 文档吧
 
 ### 多路显卡启动脚本（自行研究）
 
