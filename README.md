@@ -213,6 +213,7 @@ export CUDA_VISIBLE_DEVICES=3
 
 给脚本执行权限 `chmod +x claim.sh`
 
-修改`claim.sh`中的**targetAddress**和**httpsRPC**
+修改`claim.sh`中的**claim_address**和**rpc_url**
+注意里面的路径 要改成官方的版本变异的`orz`
 
 然后执行此命令归集orz`/root/orz-cli-gpu/claim.sh`
