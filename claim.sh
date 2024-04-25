@@ -4,7 +4,7 @@ priority_fee=50000
 
 rpc_url="你的 rpc"
 
-// 你的钱包的 orz 的 token account，注意这不是钱包地址。可在 solscan.io 你钱包地址的 portfolio 查看。
+# 你的钱包的 orz 的 token account，注意这不是钱包地址。可在 solscan.io 你钱包地址的 portfolio 查看。
 claim_address="F8Bg6LVvt4PdKKACx5u3qbhANFz1LxUvnD8XkzhrnToW"
 
 # 定义包含密钥对文件的数组
